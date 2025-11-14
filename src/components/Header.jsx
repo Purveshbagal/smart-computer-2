@@ -16,7 +16,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <a href="tel:9922340054" className="flex items-center space-x-2 hover:text-accent transition-colors">
             <PhoneIcon className="h-5 w-5" />
-            <span className="hidden sm:inline">9922340054</span>
+            <span className="phone-hidden">9922340054</span>
           </a>
         </div>
       </div>

@@ -23,7 +23,7 @@ const Home = () => {
               Discover our selection of new and refurbished computers and accessories.
             </p>
           </motion.div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+          <div className="grid grid-responsive grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {featuredProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}

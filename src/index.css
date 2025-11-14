@@ -16,3 +16,30 @@
     @apply bg-white rounded-lg shadow-md p-4;
   }
 }
+
+/* Mobile responsiveness improvements */
+@media (max-width: 768px) {
+  .container {
+    @apply px-2;
+  }
+
+  .hero-text {
+    @apply text-3xl;
+  }
+
+  .hero-subtitle {
+    @apply text-lg;
+  }
+
+  .grid-responsive {
+    @apply grid-cols-1;
+  }
+
+  .nav-hidden {
+    @apply hidden;
+  }
+
+  .phone-hidden {
+    @apply hidden;
+  }
+}

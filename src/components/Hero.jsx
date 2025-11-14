@@ -11,10 +11,10 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="hero-text text-4xl md:text-6xl font-bold mb-6">
               Smart Computer
             </h1>
-            <p className="text-xl md:text-2xl mb-8">
+            <p className="hero-subtitle text-xl md:text-2xl mb-8">
               New & Refurbished Laptops, Desktops & Accessories
             </p>
             <div className="space-x-4">
